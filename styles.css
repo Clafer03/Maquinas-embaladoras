@@ -1,0 +1,103 @@
+
+@font-face {
+ font-family: 'Lato-Italic';
+ font-style: normal;
+ font-weight: normal;
+ src: url(Fonts/Lato-Italic.ttf);
+ }
+
+ @font-face {
+ font-family: 'OpenSans-Bold';
+ font-style: normal;
+ font-weight: normal;
+ src: url(Fonts/OpenSans-Bold.ttf);
+ }
+
+
+.header{
+	min-height: 100vh;
+	width: 100%;
+}
+
+header .Titulo{
+	font-family: OpenSans-Bold;
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    align-content: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+section .Subtitulo1{
+    font-family: OpenSans-Bold;
+    font-size: 15px;
+    text-align: center;
+    width: 500px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 510px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contenidos{
+    margin-left: 180px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 450px;
+    width: 700px;
+}
+
+.Contenidos2{
+    margin-left: 350px;
+    padding: 20px;
+    display: flex;
+    height: 450px;
+    width: 450px;
+    align-content: center;
+}
+
+h3{
+    font-family: Lato-Italic;
+    margin: 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+p{
+    font-family: Lato-Italic;
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+    }
+
+aside{
+    padding-left: 15px;
+    margin-left: 15px;
+    float: left;
+}
+
+
+.Contactos{
+    font-family: OpenSans-Bold;
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.Maquina3{
+    margin-left: 550px;
+    padding: 20px;
+    display: flex;
+    height: 450px;
+    width: 450px;
+}
